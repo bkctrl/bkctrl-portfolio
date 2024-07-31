@@ -63,8 +63,8 @@ export function App() {
       <main className="flex-1 pt-14">
         {/* Home */}
         <div id="home">
-          <section id="home" className="container mx-auto px-4 py-12 md:px-6 md:py-16" style={{minHeight: "100vh"}}>
-            <div className="mx-auto max-w-3xl grid grid-cols-2 gap-6"  style={{paddingTop : "15vh", maxWidth: "50vw"}}>
+          <section id="home" className="container mx-auto px-4 md:px-6" style={{minHeight: "100vh"}}>
+            <div className="mx-auto max-w-3xl grid grid-cols-2 gap-6"  style={{paddingTop : "21vh", maxWidth: "50vw"}}>
               <div data-aos="fade-right" data-aos-duration="1500" data-aos-mirror="true">
                 <br />
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Hi, I&apos;m BK</h1>
