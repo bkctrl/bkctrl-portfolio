@@ -3,10 +3,8 @@ import Link from "next/link";
 import { Separator } from "@/components/ui/Separator";
 import { Button } from "@/components/ui/Button"; 
 import { GithubIcon, LinkedinIcon, MailIcon, DocumentIcon, ExternalLinkIcon } from "@/components/ui/Icons";
-import 'devicon/devicon.min.css';
 import AOS from "aos";
 import ContactForm from "@/components/ui/ContactForm";
-
 
 export function App() {
   useEffect(() => {
