@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import { Separator } from "@/components/ui/Separator";
 import { Button } from "@/components/ui/Button"; 
-import { GithubIcon, LinkedinIcon, MailIcon, DocumentIcon, ExternalLinkIcon, JSIcon, TSIcon, ReactIcon, NodeIcon, ExpressIcon, TailwindIcon, NextIcon, NotionIcon, PythonIcon, TFIcon, OpenCVIcon } from "@/components/ui/Icons";
+import { GithubIcon, LinkedinIcon, MailIcon, DocumentIcon, ExternalLinkIcon } from "@/components/ui/Icons";
 import 'devicon/devicon.min.css';
 import AOS from "aos";
 import ContactForm from "@/components/ui/ContactForm";
