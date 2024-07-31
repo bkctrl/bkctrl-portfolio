@@ -13,6 +13,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        bounce: 'bounce 1s infinite',
+      },
     },
       colors: {
             "border": "hsl(var(--border))",
@@ -54,7 +57,8 @@ const config: Config = {
       borderRadius: {
             "lg": "var(--radius)",
             "md": "calc(var(--radius) - 2px)",
-            "sm": "calc(var(--radius) - 4px)"
+            "sm": "calc(var(--radius) - 4px)",
+            "full": "9999px"
           },
       keyframes: {
             "accordion-down": {
@@ -64,6 +68,10 @@ const config: Config = {
               "to": {
                 "height": "var(--radix-accordion-content-height)"
               }
+            },
+            bounce: {
+              '0%, 100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-25%)' },
             },
             "accordion-up": {
               "from": {
