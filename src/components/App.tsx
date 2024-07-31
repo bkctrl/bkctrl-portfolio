@@ -64,7 +64,7 @@ export function App() {
         {/* Home */}
         <div id="home">
           <section id="home" className="container mx-auto px-4 py-12 md:px-6 md:py-16" style={{minHeight: "100vh"}}>
-            <div className="mx-auto max-w-3xl grid grid-cols-2 gap-6"  style={{paddingTop : "12vh", maxWidth: "50vw"}}>
+            <div className="mx-auto max-w-3xl grid grid-cols-2 gap-6"  style={{paddingTop : "15vh", maxWidth: "50vw"}}>
               <div data-aos="fade-right" data-aos-duration="1500" data-aos-mirror="true">
                 <br />
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Hi, I&apos;m BK</h1>
@@ -93,11 +93,11 @@ export function App() {
               <div className="flex items-center justify-end relative" data-aos="fade-left" data-aos-duration="1500" data-aos-mirror="true">
                 <div className="absolute inset-0 bg-gradient-to-r from-[#ff69b4e6] to-[#fff200] opacity-30 blur-[50px] animate-pulse" />
                 <img
-                  src="/placeholder.svg"
+                  src="/logo.png"
                   width={300}
                   height={300}
                   className="relative z-10"
-                  style={{borderRadius : "50%"}}
+                  // style={{borderRadius : "50%"}}
                 />
               </div>
             </div>
