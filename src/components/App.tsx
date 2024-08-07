@@ -32,7 +32,7 @@ export function App() {
                   Experiences
                 </Link>
                 <Link href="#education" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4] hover:animate-pulse" prefetch={false}>
-                  Education
+                  Education & Certifications
                 </Link>
                 <Link href="#projects" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4] hover:animate-pulse" prefetch={false}>
                   Projects
@@ -45,7 +45,7 @@ export function App() {
           </div>
           <div className="flex items-center space-x-2" style={{paddingTop : "0.1rem"
           }}>
-            <Link href="https://bkctrl.s3.ca-central-1.amazonaws.com/resume-being-updated.pdf" target="_blank" className="p-2 group" prefetch={false}>
+            <Link href="https://bkctrl.s3.ca-central-1.amazonaws.com/Resume_W25_External.pdf" target="_blank" className="p-2 group" prefetch={false}>
               <DocumentIcon className="h-5 w-5 fill-white transition-colors group-hover:fill-[#c2cdfebe]"/>
             </Link>
             <Link href="https://github.com/bkctrl" target="_blank" className="p-2 group" prefetch={false}>
@@ -72,7 +72,7 @@ export function App() {
                   I&apos;m a 3A Computer Science student at the University of Waterloo, specializing in Artificial Intelligence and Economics. I&apos;m constantly striving to learn new technologies and expand my knowledge in the industry.
                 </p>
                 <div className="flex items-center gap-4" style={{paddingBottom : "4rem"}}>
-                  <Link href="https://bkctrl.s3.ca-central-1.amazonaws.com/resume-being-updated.pdf" target="_blank">
+                  <Link href="https://bkctrl.s3.ca-central-1.amazonaws.com/Resume_W25_External.pdf" target="_blank">
                     <Button className="mt-4">
                       <DocumentIcon className="mr-2 h-4 w-4" />
                       Resume
@@ -176,7 +176,7 @@ export function App() {
         <div id="education">
           <section className="container mx-auto px-4 py-12 md:px-6 md:py-16" data-aos="fade-up" data-aos-duration="1500" data-aos-mirror="true">
             <div className="mx-auto max-w-3xl">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Education</h2>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Education & Certifications</h2>
               <div className="mt-8 space-y-8">
                 <div className="flex items-start group">
                   <img
@@ -199,6 +199,28 @@ export function App() {
                   </div>
                 </div>
               </div>
+              <div className="mt-8 space-y-8">
+                <div className="flex items-start group">
+                  <img
+                    src="/aws-logo.png"
+                    width={64}
+                    height={64}
+                    className="mr-4 h-14 w-14 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-full"
+                    style={{borderRadius : "30%"}}
+                  />
+                  <div>
+                    <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
+                      <p className="font-semibold"><b>AWS Certified Cloud Practitioner</b></p>
+                    </h3>
+                    <p className="mt-1 text-muted-foreground font-semibold">CLF-C02 Certification | August 2024</p>
+                    <ul className="mt-4 space-y-2 text-muted-foreground">
+                      <li>
+                        {/* Certification Link Here */}
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
         </div>
@@ -208,7 +230,7 @@ export function App() {
             <div className="mx-auto max-w-3xl">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Featured Projects</h2>
               <div className="mt-8 space-y-8">
-                <div data-aos="zoom-in" aos-duration="1500">
+              <div data-aos="zoom-in" aos-duration="1500">
                 <div className="rounded-lg border bg-card p-4 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg hover:shadow-[#ff69b4]/50">
                   <img
                     src="/uwmun.png"
@@ -243,6 +265,54 @@ export function App() {
                       </Link>
                       <Link
                         href="https://github.com/bkctrl/uwmun"
+                        target="_blank"
+                        className="inline-flex items-center rounded-md border border-input bg-background px-3 py-2 text-sm font-medium text-muted-foreground shadow-sm transition-colors hover:bg-github hover:text-white-color hover:fill-white-color hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
+                        prefetch={false}
+                      >
+                        <GithubIcon className="transition-colors group-hover:fill-white-color" style={{height : "1.2rem"}}/>
+                        GitHub
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div data-aos="zoom-in" aos-duration="1500">
+                <div className="rounded-lg border bg-card p-4 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg hover:shadow-[#ff69b4]/50">
+                  <img
+                    src="/simply-economics.png"
+                    width="100%"
+                    alt="Project 1"
+                    className="rounded-md object-cover"
+                  /> 
+                  <div className="mt-4">
+                    <h3 className="text-lg font-semibold">SimplyEconomics</h3>
+                    <p className="mt-2 text-muted-foreground">
+                    A convenient dashboard streamlining complex economic data into clear, actionable insights.
+                    </p>
+                    <div className="mt-4 flex gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/d3js/d3js-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" style={{ height: "30px" }}/>
+                    </div>
+                    <div className="mt-4 flex">
+                      <Link
+                        href="https://github.com/bkctrl/simply-economics"
+                        target="_blank"
+                        className="inline-flex items-center rounded-md bg-primary px-3 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 mr-2"
+                        prefetch={false}
+                      >
+                        <ExternalLinkIcon className="fill-white transition-colors" style={{height : "1rem"}}/>
+                        Live Demo
+                      </Link>
+                      <Link
+                        href="https://github.com/bkctrl/simply-economics"
                         target="_blank"
                         className="inline-flex items-center rounded-md border border-input bg-background px-3 py-2 text-sm font-medium text-muted-foreground shadow-sm transition-colors hover:bg-github hover:text-white-color hover:fill-white-color hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
                         prefetch={false}
