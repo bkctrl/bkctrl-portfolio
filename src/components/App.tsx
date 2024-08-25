@@ -202,20 +202,29 @@ export function App() {
               <div className="mt-8 space-y-8">
                 <div className="flex items-start group">
                   <img
-                    src="/aws-logo.png"
+                    src="/aws-clf-c02.png"
                     width={64}
                     height={64}
-                    className="mr-4 h-14 w-14 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-full"
+                    className="mr-4 h-16 w-14 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-full"
                     style={{borderRadius : "30%"}}
                   />
                   <div>
                     <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
                       <p className="font-semibold"><b>AWS Certified Cloud Practitioner</b></p>
                     </h3>
-                    <p className="mt-1 text-muted-foreground font-semibold">CLF-C02 Certification | August 2024</p>
+                    <p className="mt-1 text-muted-foreground font-semibold">CLF-C02 Certification | Aug 2024</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
                       <li>
-                        {/* Certification Link Here */}
+                      <a href="https://www.credly.com/badges/66d0c316-0720-471c-a01d-84c17a14b296/public_url" target="_blank" className="flex items-center text-black font-medium hover:text-gray-800 hover:font-semibold">
+                      <p className="underline" style={{paddingRight: "0.3em"}}>View Certification</p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" fill="currentColor" stroke="currentColor" stroke-width="0.8" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                      </svg>
+                  </a>
+                      </li>
+                      <li>
+                        Currently preparing for the AWS Certified Solutions Architect (SAA-C03)
                       </li>
                     </ul>
                   </div>
@@ -292,11 +301,9 @@ export function App() {
                     <div className="mt-4 flex gap-2">
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" style={{ height: "30px" }}/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" style={{ height: "30px" }}/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" style={{ height: "30px" }}/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/d3js/d3js-original.svg" style={{ height: "30px" }}/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg" style={{ height: "30px" }}/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" style={{ height: "30px" }}/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" style={{ height: "30px" }}/>
