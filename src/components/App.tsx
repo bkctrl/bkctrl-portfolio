@@ -130,7 +130,7 @@ export function App() {
                     <p className="mt-1 text-sm text-muted-foreground">Waterloo, ON</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
                       <li>
-                        🧑‍🏫 Managed and taught C++/OOP courses with 100+ students
+                        🧑‍🏫 Managed and taught C++/OOP courses totalling 100+ students
                       </li>
                     </ul>
                     <div className="mt-4 flex gap-2">
@@ -242,29 +242,29 @@ export function App() {
               <div data-aos="zoom-in" aos-duration="1500">
                 <div className="rounded-lg border bg-card p-4 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg hover:shadow-[#ff69b4]/50">
                   <img
-                    src="/uwmun.png"
+                    src="/simply-economics.png"
                     width="100%"
                     alt="Project 1"
                     className="rounded-md object-cover"
                   /> 
                   <div className="mt-4">
-                    <h3 className="text-lg font-semibold">UWMUN Website</h3>
+                    <h3 className="text-lg font-semibold">SimplyEconomics</h3>
                     <p className="mt-2 text-muted-foreground">
-                    The University of Waterloo Model United Nations   website, automated with Notion API.
+                    A full-stack economics dashboard and discussions forum, powered by AWS services and World Bank REST API.
                     </p>
                     <div className="mt-4 flex gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" style={{ height: "30px" }} />
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" style={{ height: "30px" }}/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg" style={{ height: "30px" }}/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" style={{ height: "30px" }}/>
                     </div>
                     <div className="mt-4 flex">
                       <Link
-                        href="https://uwmun.ca"
+                        href="https://simplyeconomics.ca"
                         target="_blank"
                         className="inline-flex items-center rounded-md bg-primary px-3 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 mr-2"
                         prefetch={false}
@@ -273,7 +273,7 @@ export function App() {
                         Live Demo
                       </Link>
                       <Link
-                        href="https://github.com/bkctrl/uwmun"
+                        href="https://github.com/bkctrl/simply-economics"
                         target="_blank"
                         className="inline-flex items-center rounded-md border border-input bg-background px-3 py-2 text-sm font-medium text-muted-foreground shadow-sm transition-colors hover:bg-github hover:text-white-color hover:fill-white-color hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
                         prefetch={false}
@@ -286,50 +286,50 @@ export function App() {
                 </div>
                 </div>
                 <div data-aos="zoom-in" aos-duration="1500">
-                <div className="rounded-lg border bg-card p-4 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg hover:shadow-[#ff69b4]/50">
-                  <img
-                    src="/simply-economics.png"
-                    width="100%"
-                    alt="Project 1"
-                    className="rounded-md object-cover"
-                  /> 
-                  <div className="mt-4">
-                    <h3 className="text-lg font-semibold">SimplyEconomics</h3>
-                    <p className="mt-2 text-muted-foreground">
-                    A convenient dashboard streamlining complex economic data into clear, actionable insights.
-                    </p>
-                    <div className="mt-4 flex gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" style={{ height: "30px" }}/>
-                    </div>
-                    <div className="mt-4 flex">
-                      <Link
-                        href="https://github.com/bkctrl/simply-economics"
-                        target="_blank"
-                        className="inline-flex items-center rounded-md bg-primary px-3 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 mr-2"
-                        prefetch={false}
-                      >
-                        <ExternalLinkIcon className="fill-white transition-colors" style={{height : "1rem"}}/>
-                        Live Demo
-                      </Link>
-                      <Link
-                        href="https://github.com/bkctrl/simply-economics"
-                        target="_blank"
-                        className="inline-flex items-center rounded-md border border-input bg-background px-3 py-2 text-sm font-medium text-muted-foreground shadow-sm transition-colors hover:bg-github hover:text-white-color hover:fill-white-color hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
-                        prefetch={false}
-                      >
-                        <GithubIcon className="transition-colors group-hover:fill-white-color" style={{height : "1.2rem"}}/>
-                        GitHub
-                      </Link>
+                  <div className="rounded-lg border bg-card p-4 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg hover:shadow-[#ff69b4]/50">
+                    <img
+                      src="/uwmun.png"
+                      width="100%"
+                      alt="Project 1"
+                      className="rounded-md object-cover"
+                    /> 
+                    <div className="mt-4">
+                      <h3 className="text-lg font-semibold">UWMUN Website</h3>
+                      <p className="mt-2 text-muted-foreground">
+                      The University of Waterloo Model United Nations   website, automated with Notion API.
+                      </p>
+                      <div className="mt-4 flex gap-2">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" style={{ height: "30px" }}/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" style={{ height: "30px" }}/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style={{ height: "30px" }}/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg" style={{ height: "30px" }}/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" style={{ height: "30px" }}/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" style={{ height: "30px" }}/>
+                      </div>
+                      <div className="mt-4 flex">
+                        <Link
+                          href="https://uwmun.ca"
+                          target="_blank"
+                          className="inline-flex items-center rounded-md bg-primary px-3 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 mr-2"
+                          prefetch={false}
+                        >
+                          <ExternalLinkIcon className="fill-white transition-colors" style={{height : "1rem"}}/>
+                          Live Demo
+                        </Link>
+                        <Link
+                          href="https://github.com/bkctrl/uwmun"
+                          target="_blank"
+                          className="inline-flex items-center rounded-md border border-input bg-background px-3 py-2 text-sm font-medium text-muted-foreground shadow-sm transition-colors hover:bg-github hover:text-white-color hover:fill-white-color hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
+                          prefetch={false}
+                        >
+                          <GithubIcon className="transition-colors group-hover:fill-white-color" style={{height : "1.2rem"}}/>
+                          GitHub
+                        </Link>
+                      </div>
                     </div>
                   </div>
-                </div>
                 </div>
                 <div data-aos="zoom-in" aos-duration="1500">
                 <div className="rounded-lg border bg-card p-4 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg hover:shadow-[#ff69b4]/50">
