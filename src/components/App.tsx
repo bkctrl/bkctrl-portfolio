@@ -112,6 +112,32 @@ export function App() {
             <div className="mx-auto max-w-3xl" style={{paddingTop: "3rem"}}>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Experiences</h2>
               <div className="mt-8 space-y-8">
+              <div className="flex items-start group">
+                  <img
+                    src="/shopify-logo.png"
+                    width={70}
+                    height={70}
+                    alt="Briefcase"
+                    className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
+                    style={{borderRadius : "30%"}}
+                  />
+                  <div>
+                    <p className="text-sm text-muted-foreground">Jan 2025 - Apr 2025 (Expected)</p>
+                    <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
+                      <strong>Shopify </strong>
+                    </h3>
+                    <p className="mt-1 text-muted-foreground font-semibold">Software Engineer Intern</p>
+                    <p className="mt-1 text-sm text-muted-foreground">Toronto, ON</p>
+                    <ul className="mt-4 space-y-2 text-muted-foreground">
+                      <li>
+                        
+                      </li>
+                    </ul>
+                    <div className="mt-4 flex gap-2">
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Ruby on Rails</span>
+                    </div>
+                  </div>
+                </div>
                 <div className="flex items-start group">
                   <img
                     src="/waterloo-engineering.jpeg"
