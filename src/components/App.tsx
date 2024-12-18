@@ -156,7 +156,7 @@ export function App() {
                     <p className="mt-1 text-muted-foreground font-semibold">Backend Engineer</p>
                     <p className="mt-1 text-sm text-muted-foreground">Waterloo, ON</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
-                      <li>📈 UWaterloo's Quantitative Finance Team</li>
+                      <li>📈 UWaterloo&apos;s Quantitative Finance Team</li>
                     </ul>
                     <div className="mt-4 flex gap-2">
                       <span className="bg-muted px-2 py-1 rounded-md text-sm">TBD</span>
