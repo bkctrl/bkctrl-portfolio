@@ -69,7 +69,7 @@ export function App() {
                 <br />
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Hi, I&apos;m BK</h1>
                 <p className="mt-6 text-base text-muted-foreground">
-                  I&apos;m a 3A Computer Science student at the University of Waterloo, specializing in Artificial Intelligence and Economics. I&apos;m constantly striving to learn new technologies and expand my knowledge in the industry.
+                  I&apos;m a 3B Computer Science student at the University of Waterloo, with a minor in Economics. My current position is at Shopify, where I&apos;m constantly striving to learn new technologies and expand my knowledge in the industry.
                 </p>
                 <div className="flex items-center gap-4" style={{paddingBottom : "4rem"}}>
                   <Link href="https://bkctrl.s3.ca-central-1.amazonaws.com/Resume_W25_External.pdf" target="_blank">
@@ -119,10 +119,9 @@ export function App() {
                     height={70}
                     alt="Briefcase"
                     className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
-                    style={{borderRadius : "30%"}}
                   />
                   <div>
-                    <p className="text-sm text-muted-foreground">Jan 2025 - Apr 2025 (Expected)</p>
+                    <p className="text-sm text-muted-foreground">Jan 2025 - Present</p>
                     <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
                       <strong>Shopify </strong>
                     </h3>
@@ -130,11 +129,37 @@ export function App() {
                     <p className="mt-1 text-sm text-muted-foreground">Toronto, ON</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
                       <li>
-                        
+                        💸 Backend Engineering, Managed Markets Foundations
                       </li>
                     </ul>
                     <div className="mt-4 flex gap-2">
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Ruby on Rails</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">TBD</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <img
+                    src="/wat-street-logo.png"
+                    width={64}
+                    height={64}
+                    alt="Brush"
+                    border-radius="50%"
+                    className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-full"
+                    style={{borderRadius: "30%"}}
+
+                  />
+                  <div>
+                    <p className="text-sm text-muted-foreground">Dec 2024 - Present</p>
+                    <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
+                      <strong>Wat Street</strong>
+                    </h3>
+                    <p className="mt-1 text-muted-foreground font-semibold">Backend Engineer</p>
+                    <p className="mt-1 text-sm text-muted-foreground">Waterloo, ON</p>
+                    <ul className="mt-4 space-y-2 text-muted-foreground">
+                      <li>📈 UWaterloo's Quantitative Finance Team</li>
+                    </ul>
+                    <div className="mt-4 flex gap-2">
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">TBD</span>
                     </div>
                   </div>
                 </div>
@@ -152,7 +177,7 @@ export function App() {
                     <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
                       <strong>Faculty of Engineering, University of Waterloo </strong>
                     </h3>
-                    <p className="mt-1 text-muted-foreground font-semibold">First-Year Engineerng Teaching Assistant (WEEF TA)</p>
+                    <p className="mt-1 text-muted-foreground font-semibold">Systems Design & Biomedical Engineering Teaching Assistant</p>
                     <p className="mt-1 text-sm text-muted-foreground">Waterloo, ON</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
                       <li>
@@ -162,35 +187,7 @@ export function App() {
                     <div className="mt-4 flex gap-2">
                       <span className="bg-muted px-2 py-1 rounded-md text-sm">C++</span>
                       <span className="bg-muted px-2 py-1 rounded-md text-sm">Object-Oriented Programming</span>
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Teaching</span>
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Education</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex items-start group">
-                  <img
-                    src="/midnight-sun.png"
-                    width={64}
-                    height={64}
-                    alt="Brush"
-                    border-radius="50%"
-                    className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-full"
-                  />
-                  <div>
-                    <p className="text-sm text-muted-foreground">Sep 2023 - Present</p>
-                    <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
-                      <strong>Midnight Sun Solar Car Rayce Team</strong>
-                    </h3>
-                    <p className="mt-1 text-muted-foreground font-semibold">Firmware Developer</p>
-                    <p className="mt-1 text-sm text-muted-foreground">Waterloo, ON</p>
-                    <ul className="mt-4 space-y-2 text-muted-foreground">
-                      <li>🏎️ Developed a battery management (BPS) system in C/C++</li>
-                    </ul>
-                    <div className="mt-4 flex gap-2">
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">C</span>
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">C++</span>
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Documentation</span>
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Custom Libraries</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Higher Education</span>
                     </div>
                   </div>
                 </div>
@@ -215,11 +212,11 @@ export function App() {
                     <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
                       <p className="font-semibold"><b>Bachelor of Computer Science</b></p>
                     </h3>
-                    <p className="mt-1 text-muted-foreground font-semibold">University of Waterloo | Sep 2022 - Aug 2027</p>
+                    <p className="mt-1 text-muted-foreground font-semibold">University of Waterloo | Sep 2022 - Dec 2026</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
-                      <li>Artificial Intelligence Specialization & Economics Minor </li>
+                      <li>Minor in Economics</li>
                       <li>
-                        Level: 3A
+                        Level: 3B
                       </li>
                     </ul>
                   </div>
@@ -265,6 +262,50 @@ export function App() {
             <div className="mx-auto max-w-3xl">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Featured Projects</h2>
               <div className="mt-8 space-y-8">
+              <div data-aos="zoom-in" aos-duration="1500">
+                <div className="rounded-lg border bg-card p-4 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg hover:shadow-[#ff69b4]/50">
+                  <img
+                    src="/timestamp.png"
+                    width="100%"
+                    alt="Project 1"
+                    className="rounded-md object-cover"
+                  /> 
+                  <div className="mt-4">
+                    <h3 className="text-lg font-semibold">Timestamp</h3>
+                    <p className="mt-2 text-muted-foreground">
+                    On time in no time — an Android app that ensures you get to places and events!
+                    </p>
+                    <div className="mt-4 flex gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" style={{ height: "30px" }}/>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 256 367"><path fill="#34a853" d="M70.585 271.865a371 371 0 0 1 28.911 42.642c7.374 13.982 10.448 23.463 15.837 40.31c3.305 9.308 6.292 12.086 12.714 12.086c6.998 0 10.173-4.726 12.626-12.035c5.094-15.91 9.091-28.052 15.397-39.525c12.374-22.15 27.75-41.833 42.858-60.75c4.09-5.354 30.534-36.545 42.439-61.156c0 0 14.632-27.035 14.632-64.792c0-35.318-14.43-59.813-14.43-59.813l-41.545 11.126l-25.23 66.451l-6.242 9.163l-1.248 1.66l-1.66 2.078l-2.914 3.319l-4.164 4.163l-22.467 18.304l-56.17 32.432z"/><path fill="#fbbc04" d="M12.612 188.892c13.709 31.313 40.145 58.839 58.031 82.995l95.001-112.534s-13.384 17.504-37.662 17.504c-27.043 0-48.89-21.595-48.89-48.825c0-18.673 11.234-31.501 11.234-31.501l-64.489 17.28z"/><path fill="#4285f4" d="M166.705 5.787c31.552 10.173 58.558 31.53 74.893 63.023l-75.925 90.478s11.234-13.06 11.234-31.617c0-27.864-23.463-48.68-48.81-48.68c-23.969 0-37.735 17.475-37.735 17.475v-57z"/><path fill="#1a73e8" d="M30.015 45.765C48.86 23.218 82.02 0 127.736 0c22.18 0 38.89 5.823 38.89 5.823L90.29 96.516H36.205z"/><path fill="#ea4335" d="M12.612 188.892S0 164.194 0 128.414c0-33.817 13.146-63.377 30.015-82.649l60.318 50.759z"/></svg>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" style={{ height: "30px" }}/>
+                    </div>
+                    <div className="mt-4 flex">
+                      <Link
+                        href="https://github.com/bkctrl/timestamp"
+                        target="_blank"
+                        className="inline-flex items-center rounded-md bg-primary px-3 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 mr-2"
+                        prefetch={false}
+                      >
+                      <ExternalLinkIcon className="fill-white transition-colors" style={{height : "1rem"}}/>
+                      Live Demo
+                      </Link>
+                      <Link
+                        href="https://github.com/bkctrl/timestamp"
+                        target="_blank"
+                        className="inline-flex items-center rounded-md border border-input bg-background px-3 py-2 text-sm font-medium text-muted-foreground shadow-sm transition-colors hover:bg-github hover:text-white-color hover:fill-white-color hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
+                        prefetch={false}
+                      >
+                        <GithubIcon className="transition-colors group-hover:fill-white-color" style={{height : "1.2rem"}}/>
+                        GitHub
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                </div>
               <div data-aos="zoom-in" aos-duration="1500">
                 <div className="rounded-lg border bg-card p-4 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg hover:shadow-[#ff69b4]/50">
                   <img
@@ -356,50 +397,6 @@ export function App() {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div data-aos="zoom-in" aos-duration="1500">
-                <div className="rounded-lg border bg-card p-4 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg hover:shadow-[#ff69b4]/50">
-                  <img
-                    src="/gesture-detector.png"
-                    width="100%"
-                    alt="Project 1"
-                    className="rounded-md object-cover"
-                  /> 
-                  <div className="mt-4">
-                    <h3 className="text-lg font-semibold">Gesture Detector</h3>
-                    <p className="mt-2 text-muted-foreground">
-                    A ML-driven gesture detector web app that detects and classifies different hand gestures.
-                    </p>
-                    <div className="mt-4 flex gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style={{ height: "30px" }}/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
-                    </div>
-                    <div className="mt-4 flex">
-                      <Link
-                        href="https://gesturedetector.live"
-                        target="_blank"
-                        className="inline-flex items-center rounded-md bg-primary px-3 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 mr-2"
-                        prefetch={false}
-                      >
-                      <ExternalLinkIcon className="fill-white transition-colors" style={{height : "1rem"}}/>
-                      Live Demo
-                      </Link>
-                      <Link
-                        href="https://github.com/bkctrl/gesture-detector"
-                        target="_blank"
-                        className="inline-flex items-center rounded-md border border-input bg-background px-3 py-2 text-sm font-medium text-muted-foreground shadow-sm transition-colors hover:bg-github hover:text-white-color hover:fill-white-color hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
-                        prefetch={false}
-                      >
-                        <GithubIcon className="transition-colors group-hover:fill-white-color" style={{height : "1.2rem"}}/>
-                        GitHub
-                      </Link>
-                    </div>
-                  </div>
-                </div>
                 </div>
               </div>
             </div>
