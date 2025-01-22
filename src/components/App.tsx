@@ -305,7 +305,54 @@ export function App() {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div data-aos="zoom-in" aos-duration="1500">
+                <div className="rounded-lg border bg-card p-4 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg hover:shadow-[#ff69b4]/50">
+                  <img
+                    src="/phisheyelens.png"
+                    width="100%"
+                    alt="Project 1"
+                    className="rounded-md object-cover"
+                  /> 
+                  <div className="mt-4">
+                    <h3 className="text-lg font-semibold">Phish-Eye Lens</h3>
+                    <p className="mt-2 text-muted-foreground">
+                    Understand the qualms of password selection and phishing tactics — UofTHacks 12 Winner 🏆
+                    </p>
+                    <div className="mt-4 flex gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style={{ height: "30px" }}/>
+                      <img src="/gemini.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style={{ height: "30px", borderRadius: "25%" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg" style={{ height: "30px" }}/>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" style={{ height: "30px" }}/>
+
+                    </div>
+                    <div className="mt-4 flex">
+                      <Link
+                        href="https://phisheyelens.co"
+                        target="_blank"
+                        className="inline-flex items-center rounded-md bg-primary px-3 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 mr-2"
+                        prefetch={false}
+                      >
+                      <ExternalLinkIcon className="fill-white transition-colors" style={{height : "1rem"}}/>
+                      Live Demo
+                      </Link>
+                      <Link
+                        href="https://github.com/bkctrl/phisheye-lens"
+                        target="_blank"
+                        className="inline-flex items-center rounded-md border border-input bg-background px-3 py-2 text-sm font-medium text-muted-foreground shadow-sm transition-colors hover:bg-github hover:text-white-color hover:fill-white-color hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
+                        prefetch={false}
+                      >
+                        <GithubIcon className="transition-colors group-hover:fill-white-color" style={{height : "1.2rem"}}/>
+                        GitHub
+                      </Link>
+                    </div>
+                  </div>
                 </div>
+              </div>
               <div data-aos="zoom-in" aos-duration="1500">
                 <div className="rounded-lg border bg-card p-4 shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg hover:shadow-[#ff69b4]/50">
                   <img
