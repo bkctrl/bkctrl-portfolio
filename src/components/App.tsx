@@ -1,4 +1,8 @@
-import React, { useEffect } from "react";
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
+import React, { useEffect, useState } from "react";
+import { Menu, X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { Separator } from "@/components/ui/Separator";
 import { Button } from "@/components/ui/Button"; 
@@ -11,6 +15,11 @@ export function App() {
   useEffect(() => {
     AOS.init();
   });
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="flex min-h-[100dvh] flex-col bg-background text-foreground">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
@@ -22,44 +31,83 @@ export function App() {
       {/* Navigation Bar */}
       <header className="fixed h-16 top-0 left-0 right-0 z-50 bg-muted py-3 shadow-sm">
         <div className="container mx-auto flex items-center justify-between px-4 md:px-6">
-          <div className="flex items-center space-x-4" style={{paddingTop : "0.1rem"
-          }}>
-            <Link href="#home" className="header-text text-xl font-bold text-muted-foreground hover:text-[#362688]" prefetch={false}> BKctrl </Link>
-            <div className="flex items-center space-x-4">
-              <Separator orientation="vertical" className="h-5" />
-              <nav className="flex items-center space-x-4">
-                <Link href="#experiences" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4] hover:animate-pulse" prefetch={false}>
-                  Experiences
-                </Link>
-                <Link href="#education" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4] hover:animate-pulse" prefetch={false}>
-                  Education & Certifications
-                </Link>
-                <Link href="#projects" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4] hover:animate-pulse" prefetch={false}>
-                  Projects
-                </Link>
-                <Link href="#contact" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4] hover:animate-pulse" prefetch={false}>
-                  Contact
-                </Link>
-              </nav>
-            </div>
-          </div>
-          <div className="flex items-center space-x-2" style={{paddingTop : "0.1rem"
-          }}>
-            <Link href="https://bkctrl.s3.ca-central-1.amazonaws.com/Resume_W25_External.pdf" target="_blank" className="p-2 group" prefetch={false}>
-              <DocumentIcon className="h-5 w-5 fill-white transition-colors group-hover:fill-[#c2cdfebe]"/>
-            </Link>
-            <Link href="https://github.com/bkctrl" target="_blank" className="p-2 group" prefetch={false}>
-              <GithubIcon className="h-5 w-5 fill-white transition-colors group-hover:fill-[#2b3137]"/>
-            </Link>
-            <Link href="https://www.linkedin.com/in/bkctrl" target="_blank" className="p-2 group" prefetch={false}>
-              <LinkedinIcon className="h-5 w-5 fill-white transition-colors group-hover:fill-[#0077B5]"/>
-            </Link>
-            <Link href="mailto:hb3kang@uwaterloo.ca" target="_blank" className="p-2 group" prefetch={false}>
-              <MailIcon className="h-5 w-5 fill-white transition-colors group-hover:fill-[#f5cae0]"/>
-            </Link>
+        
+        {/* Left Side - Logo */}
+        <div className="flex items-center space-x-4">
+          <Link href="#home" className="header-text text-xl font-bold text-muted-foreground hover:text-[#362688]" prefetch={false}>
+            BKctrl
+          </Link>
+          
+          {/* Desktop Nav */}
+          <div className="hidden md:flex items-center space-x-4">
+            <nav className="flex items-center space-x-4">
+              <Link href="#experiences" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
+                Experiences
+              </Link>
+              <Link href="#education" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
+                Education & Certifications
+              </Link>
+              <Link href="#projects" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
+                Projects
+              </Link>
+              <Link href="#contact" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
+                Contact
+              </Link>
+            </nav>
           </div>
         </div>
-      </header>
+
+        {/* Mobile Menu Button */}
+        <button className="md:hidden p-2" onClick={() => setMenuOpen(!menuOpen)}>
+          {menuOpen ? <X className="h-6 w-6 text-muted-foreground" /> : <Menu className="h-6 w-6 text-muted-foreground" />}
+        </button>
+
+        {/* Right Side Icons (Hidden on Small Screens) */}
+        <div className="hidden md:flex items-center space-x-2">
+          <Link href="https://bkctrl.s3.ca-central-1.amazonaws.com/Resume_W25_External.pdf" target="_blank" className="p-2 group" prefetch={false}>
+            <DocumentIcon className="h-5 w-5 fill-white transition-colors group-hover:fill-[#c2cdfebe]" />
+          </Link>
+          <Link href="https://github.com/bkctrl" target="_blank" className="p-2 group" prefetch={false}>
+            <GithubIcon className="h-5 w-5 fill-white transition-colors group-hover:fill-[#2b3137]" />
+          </Link>
+          <Link href="https://www.linkedin.com/in/bkctrl" target="_blank" className="p-2 group" prefetch={false}>
+            <LinkedinIcon className="h-5 w-5 fill-white transition-colors group-hover:fill-[#0077B5]" />
+          </Link>
+          <Link href="mailto:hb3kang@uwaterloo.ca" target="_blank" className="p-2 group" prefetch={false}>
+            <MailIcon className="h-5 w-5 fill-white transition-colors group-hover:fill-[#f5cae0]" />
+          </Link>
+        </div>
+      </div>
+
+      {/* Mobile Menu Dropdown with Animation */}
+      <AnimatePresence>
+        {menuOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="md:hidden absolute top-16 left-0 w-full bg-muted shadow-md overflow-hidden"
+          >
+            <nav className="flex flex-col space-y-2 p-4">
+              <Link href="#experiences" onClick={handleLinkClick} className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
+                Experiences
+              </Link>
+              <Link href="#education" onClick={handleLinkClick} className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
+                Education & Certifications
+              </Link>
+              <Link href="#projects" onClick={handleLinkClick} className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
+                Projects
+              </Link>
+              <Link href="#contact" onClick={handleLinkClick} className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
+                Contact
+              </Link>
+            </nav>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </header>
+
       <main className="flex-1 pt-14">
         {/* Home */}
         <div id="home">
@@ -69,7 +117,7 @@ export function App() {
                 <br />
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Hi, I&apos;m BK</h1>
                 <p className="mt-6 text-base text-muted-foreground">
-                  I&apos;m a 3B Computer Science student at the University of Waterloo, with a minor in Economics. My current position is at Shopify, where I&apos;m constantly striving to learn new technologies and expand my knowledge in the industry.
+                  I&apos;m a 4A Computer Science student at the University of Waterloo, with a minor in Economics. My current position is at Shopify, where I&apos;m constantly striving to learn new technologies and expand my knowledge in the industry.
                 </p>
                 <div className="flex items-center gap-4" style={{paddingBottom : "4rem"}}>
                   <Link href="https://bkctrl.s3.ca-central-1.amazonaws.com/Resume_W25_External.pdf" target="_blank">
@@ -97,7 +145,6 @@ export function App() {
                   width={300}
                   height={300}
                   className="relative z-10"
-                  // style={{borderRadius : "50%"}}
                 />
               </div>
             </div>
@@ -129,11 +176,14 @@ export function App() {
                     <p className="mt-1 text-sm text-muted-foreground">Toronto, ON</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
                       <li>
-                        💸 Backend Engineering, Managed Markets Foundations
+                        🌎🚢 Cross-Border Foundations, Duties and Taxes Service
                       </li>
                     </ul>
                     <div className="mt-4 flex gap-2">
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">TBD</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Ruby on Rails</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">GraphQL</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">React</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">TypeScript</span>
                     </div>
                   </div>
                 </div>
@@ -159,7 +209,7 @@ export function App() {
                       <li>📈 UWaterloo&apos;s Quantitative Finance Team</li>
                     </ul>
                     <div className="mt-4 flex gap-2">
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">TBD</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Python</span>
                     </div>
                   </div>
                 </div>
@@ -216,7 +266,7 @@ export function App() {
                     <ul className="mt-4 space-y-2 text-muted-foreground">
                       <li>Minor in Economics</li>
                       <li>
-                        Level: 3B
+                        Level: 4A
                       </li>
                     </ul>
                   </div>
