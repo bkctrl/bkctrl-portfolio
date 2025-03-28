@@ -41,8 +41,8 @@ export function App() {
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-4">
             <nav className="flex items-center space-x-4">
-              <Link href="#experiences" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
-                Experiences
+              <Link href="#experience" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
+                Experience
               </Link>
               <Link href="#education" className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
                 Education & Certifications
@@ -90,8 +90,8 @@ export function App() {
             className="md:hidden absolute top-16 left-0 w-full bg-muted shadow-md overflow-hidden"
           >
             <nav className="flex flex-col space-y-2 p-4">
-              <Link href="#experiences" onClick={handleLinkClick} className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
-                Experiences
+              <Link href="#experience" onClick={handleLinkClick} className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
+                Experience
               </Link>
               <Link href="#education" onClick={handleLinkClick} className="text-sm font-medium text-muted-foreground hover:text-[#ff69b4]" prefetch={false}>
                 Education & Certifications
@@ -149,29 +149,64 @@ export function App() {
               </div>
             </div>
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-4">
-              <a href="#experiences"><ScrollDownButton /></a>
+              <a href="#experience"><ScrollDownButton /></a>
             </div>
           </section>
         </div>
-        {/* Experiences */}
-        <div id="experiences">
+        {/* Experience */}
+        <div id="experience">
           <section className="container mx-auto px-4 py-12 md:px-6 md:py-16" data-aos="fade-up" data-aos-duration="1500" data-aos-mirror="true">
             <div className="mx-auto max-w-3xl" style={{paddingTop: "3rem"}}>
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Experiences</h2>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Experience</h2>
               <div className="mt-8 space-y-8">
               <div className="flex items-start group">
+                <Link href="https://www.sandwichlab.ai" target="_blank" prefetch={false}>
                   <img
-                    src="/shopify-logo.png"
-                    width={70}
-                    height={70}
+                    src="/test.png"
+                    width={60}
+                    height={60}
                     alt="Briefcase"
                     className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
                   />
+                  </Link>
                   <div>
-                    <p className="text-sm text-muted-foreground">Jan 2025 - Present</p>
-                    <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
-                      <strong>Shopify </strong>
-                    </h3>
+                    <p className="text-sm text-muted-foreground">May 2025 - Present</p>
+                    <Link href="https://www.sandwichlab.ai" target="_blank" prefetch={false}>
+                      <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
+                        <strong>Sandwich Lab AI</strong>
+                      </h3>
+                    </Link>
+                    <p className="mt-1 text-muted-foreground font-semibold">Software Engineer Intern</p>
+                    <p className="mt-1 text-sm text-muted-foreground">Vancouver, BC</p>
+                    <ul className="mt-4 space-y-2 text-muted-foreground">
+                      <li>
+                        📈🤖 Autonomous AI Agents for Meta Ads
+                      </li>
+                    </ul>
+                    <div className="mt-4 flex gap-2">
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Go</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Python</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">React</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-start group">
+                  <Link href="https://www.shopify.com" target="_blank" prefetch={false}>
+                    <img
+                      src="/shopify-logo.png"
+                      width={70}
+                      height={70}
+                      alt="Briefcase"
+                      className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
+                    />
+                  </Link>
+                  <div>
+                    <p className="text-sm text-muted-foreground">Jan 2025 - Apr 2025</p>
+                    <Link href="https://www.shopify.com" target="_blank" prefetch={false}>
+                      <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
+                        <strong>Shopify </strong>
+                      </h3>
+                    </Link>
                     <p className="mt-1 text-muted-foreground font-semibold">Software Engineer Intern</p>
                     <p className="mt-1 text-sm text-muted-foreground">Toronto, ON</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
@@ -188,45 +223,23 @@ export function App() {
                   </div>
                 </div>
                 <div className="flex items-start group">
-                  <img
-                    src="/wat-street-logo.png"
-                    width={64}
-                    height={64}
-                    alt="Brush"
-                    border-radius="50%"
-                    className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-full"
-                    style={{borderRadius: "30%"}}
-
-                  />
-                  <div>
-                    <p className="text-sm text-muted-foreground">Dec 2024 - Present</p>
-                    <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
-                      <strong>Wat Street</strong>
-                    </h3>
-                    <p className="mt-1 text-muted-foreground font-semibold">Backend Engineer</p>
-                    <p className="mt-1 text-sm text-muted-foreground">Waterloo, ON</p>
-                    <ul className="mt-4 space-y-2 text-muted-foreground">
-                      <li>📈 UWaterloo&apos;s Quantitative Finance Team</li>
-                    </ul>
-                    <div className="mt-4 flex gap-2">
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Python</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex items-start group">
-                  <img
-                    src="/waterloo-engineering.jpeg"
-                    width={64}
-                    height={64}
-                    alt="Briefcase"
-                    className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
-                    style={{borderRadius : "30%"}}
-                  />
+                  <Link href="https://uwaterloo.ca/engineering/" target="_blank" prefetch={false}>
+                    <img
+                      src="/waterloo-engineering.jpeg"
+                      width={64}
+                      height={64}
+                      alt="Briefcase"
+                      className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
+                      style={{borderRadius : "30%"}}
+                    />
+                  </Link>
                   <div>
                     <p className="text-sm text-muted-foreground">Aug 2023 - Dec 2023</p>
-                    <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
-                      <strong>Faculty of Engineering, University of Waterloo </strong>
-                    </h3>
+                    <Link href="https://uwaterloo.ca/engineering/" target="_blank" prefetch={false}>
+                      <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
+                        <strong>Faculty of Engineering, University of Waterloo </strong>
+                      </h3>
+                    </Link>
                     <p className="mt-1 text-muted-foreground font-semibold">Systems Design & Biomedical Engineering Teaching Assistant</p>
                     <p className="mt-1 text-sm text-muted-foreground">Waterloo, ON</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
