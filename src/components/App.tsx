@@ -160,6 +160,7 @@ export function App() {
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Experience</h2>
               <div className="mt-8 space-y-8">
               <div className="flex items-start group">
+              <div className="w-[64px] flex-shrink-0">
                 <Link href="https://www.sandwichlab.ai" target="_blank" prefetch={false}>
                   <img
                     src="/test.png"
@@ -169,6 +170,7 @@ export function App() {
                     className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
                   />
                   </Link>
+                  </div>
                   <div>
                     <p className="text-sm text-muted-foreground">May 2025 - Present</p>
                     <Link href="https://www.sandwichlab.ai" target="_blank" prefetch={false}>
@@ -191,20 +193,22 @@ export function App() {
                   </div>
                 </div>
                 <div className="flex items-start group">
+                <div className="w-[64px] flex-shrink-0">
                   <Link href="https://www.shopify.com" target="_blank" prefetch={false}>
                     <img
                       src="/shopify-logo.png"
                       width={70}
                       height={70}
-                      alt="Briefcase"
+                      alt="shopifylogo"
                       className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
                     />
                   </Link>
+                </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Jan 2025 - Apr 2025</p>
                     <Link href="https://www.shopify.com" target="_blank" prefetch={false}>
                       <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
-                        <strong>Shopify </strong>
+                        <strong>Shopify</strong>
                       </h3>
                     </Link>
                     <p className="mt-1 text-muted-foreground font-semibold">Software Engineer Intern</p>
@@ -223,16 +227,18 @@ export function App() {
                   </div>
                 </div>
                 <div className="flex items-start group">
+                <div className="w-[64px] flex-shrink-0">
                   <Link href="https://uwaterloo.ca/engineering/" target="_blank" prefetch={false}>
                     <img
                       src="/waterloo-engineering.jpeg"
                       width={64}
                       height={64}
-                      alt="Briefcase"
+                      alt="uwenglogo"
                       className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
                       style={{borderRadius : "30%"}}
                     />
                   </Link>
+                  </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Aug 2023 - Dec 2023</p>
                     <Link href="https://uwaterloo.ca/engineering/" target="_blank" prefetch={false}>
