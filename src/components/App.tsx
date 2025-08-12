@@ -358,7 +358,7 @@ export function App() {
                     src="/aws-clf-c02.png"
                     width={64}
                     height={64}
-                    className="mr-4 h-16 w-16 px-1 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-full"
+                    className="mr-4 h-16 w-16 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-full"
                     style={{borderRadius : "30%"}}
                   />
                   <div>
