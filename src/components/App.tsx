@@ -221,6 +221,7 @@ export function App() {
                     </ul>
                     <div className="mt-4 flex gap-2">
                       <span className="bg-muted px-2 py-1 rounded-md text-sm">Go</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">AWS</span>
                       <span className="bg-muted px-2 py-1 rounded-md text-sm">Python</span>
                       <span className="bg-muted px-2 py-1 rounded-md text-sm">React</span>
                     </div>
