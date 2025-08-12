@@ -64,7 +64,7 @@ export function App() {
 
         {/* Right Side Icons (Hidden on Small Screens) */}
         <div className="hidden md:flex items-center space-x-2">
-          <Link href="https://bkctrl.s3.ca-central-1.amazonaws.com/Resume_W25_External.pdf" target="_blank" className="p-2 group" prefetch={false}>
+          <Link href="https://bkctrl.ca/Resume_External.pdf" target="_blank" className="p-2 group" prefetch={false}>
             <DocumentIcon className="h-5 w-5 fill-white transition-colors group-hover:fill-[#c2cdfebe]" />
           </Link>
           <Link href="https://github.com/bkctrl" target="_blank" className="p-2 group" prefetch={false}>
@@ -120,7 +120,7 @@ export function App() {
                   I&apos;m a 4A Computer Science student at the University of Waterloo, with a minor in Economics. My current position is at Shopify, where I&apos;m constantly striving to learn new technologies and expand my knowledge in the industry.
                 </p>
                 <div className="flex items-center gap-4" style={{paddingBottom : "4rem"}}>
-                  <Link href="https://bkctrl.s3.ca-central-1.amazonaws.com/Resume_W25_External.pdf" target="_blank">
+                  <Link href="https://bkctrl.ca/Resume_External.pdf" target="_blank">
                     <Button className="mt-4">
                       <DocumentIcon className="mr-2 h-4 w-4" />
                       Resume
@@ -159,6 +159,40 @@ export function App() {
             <div className="mx-auto max-w-3xl" style={{paddingTop: "3rem"}}>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Experience</h2>
               <div className="mt-8 space-y-8">
+              <div className="flex items-start group">
+                <div className="w-[64px] flex-shrink-0">
+                  <Link href="https://www.shopify.com" target="_blank" prefetch={false}>
+                    <img
+                      src="/shopify-logo.png"
+                      width={70}
+                      height={70}
+                      alt="shopifylogo"
+                      className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
+                    />
+                  </Link>
+                </div>
+                  <div>
+                    <p className="text-sm text-muted-foreground">Jan 2026 - Apr 2026</p>
+                    <Link href="https://www.shopify.com" target="_blank" prefetch={false}>
+                      <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
+                        <strong>Shopify</strong>
+                      </h3>
+                    </Link>
+                    <p className="mt-1 text-muted-foreground font-semibold">Software Engineer Intern</p>
+                    <p className="mt-1 text-sm text-muted-foreground">Toronto, ON</p>
+                    <ul className="mt-4 space-y-2 text-muted-foreground">
+                      <li>
+                      🚀 Returning Winter 2026
+                      </li>
+                    </ul>
+                    <div className="mt-4 flex gap-2">
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Ruby on Rails</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">GraphQL</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">React</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">TypeScript</span>
+                    </div>
+                  </div>
+                </div>
               <div className="flex items-start group">
               <div className="w-[64px] flex-shrink-0">
                 <Link href="https://www.sandwichlab.ai" target="_blank" prefetch={false}>
@@ -250,7 +284,7 @@ export function App() {
                     <p className="mt-1 text-sm text-muted-foreground">Waterloo, ON</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
                       <li>
-                        🧑‍🏫 Managed and taught C++/OOP courses totalling 100+ students
+                        🧑‍🏫 C++/OOP Courses Teaching & Management Totalling 100+ Students
                       </li>
                     </ul>
                     <div className="mt-4 flex gap-2">
@@ -282,10 +316,37 @@ export function App() {
                       <p className="font-semibold"><b>Bachelor of Computer Science</b></p>
                     </h3>
                     <p className="mt-1 text-muted-foreground font-semibold">University of Waterloo | Sep 2022 - Dec 2026</p>
+                    <ul className="mt-4 space-y-2">
+                      <li>Software Engineering Specialization</li>
+                      <li>Economics Minor</li>
+                      <li style={{color: '#4c5059'}}>Level: 4A</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-8 space-y-8">
+                <div className="flex items-start group">
+                  <img
+                    src="/aws-saa-c03.png"
+                    width={64}
+                    height={64}
+                    className="mr-4 h-16 w-16 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-full"
+                    style={{borderRadius : "30%"}}
+                  />
+                  <div>
+                    <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
+                      <p className="font-semibold"><b>AWS Certified Solutions Architect - Associate</b></p>
+                    </h3>
+                    <p className="mt-1 text-muted-foreground font-semibold">SAA-C03 Certification | Aug 2025</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
-                      <li>Minor in Economics</li>
                       <li>
-                        Level: 4A
+                      <a href="https://bkctrl.ca" target="_blank" className="flex items-center text-black font-medium hover:text-gray-800 hover:font-semibold">
+                      <p className="underline" style={{paddingRight: "0.3em"}}>View Certification</p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" fill="currentColor" stroke="currentColor" stroke-width="0.8" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                      </svg>
+                  </a>
                       </li>
                     </ul>
                   </div>
@@ -297,7 +358,7 @@ export function App() {
                     src="/aws-clf-c02.png"
                     width={64}
                     height={64}
-                    className="mr-4 h-16 w-14 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-full"
+                    className="mr-4 h-16 w-16 px-1 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-full"
                     style={{borderRadius : "30%"}}
                   />
                   <div>
@@ -314,9 +375,6 @@ export function App() {
                         <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
                       </svg>
                   </a>
-                      </li>
-                      <li>
-                        Currently preparing for the AWS Certified Solutions Architect (SAA-C03)
                       </li>
                     </ul>
                   </div>
