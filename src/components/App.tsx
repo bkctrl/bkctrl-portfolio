@@ -117,7 +117,7 @@ export function App() {
                 <br />
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Hi, I&apos;m BK</h1>
                 <p className="mt-6 text-base text-muted-foreground">
-                  I&apos;m a 4A Computer Science student at the University of Waterloo, with a minor in Economics. My current position is at Shopify, where I&apos;m constantly striving to learn new technologies and expand my knowledge in the industry.
+                  I&apos;m a 4B Computer Science student at the University of Waterloo, with a minor in Economics. My current position is at Shopify, where I&apos;m constantly striving to learn new technologies and expand my knowledge in the industry.
                 </p>
                 <div className="flex items-center gap-4" style={{paddingBottom : "4rem"}}>
                   <Link href="https://bkctrl.ca/Resume_External.pdf" target="_blank">
@@ -159,6 +159,39 @@ export function App() {
             <div className="mx-auto max-w-3xl" style={{paddingTop: "3rem"}}>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Experience</h2>
               <div className="mt-8 space-y-8">
+              <div className="flex items-start group">
+                <div className="w-[64px] flex-shrink-0">
+                  <Link href="https://www.okta.com" target="_blank" prefetch={false}>
+                    <img
+                      src="/okta-logo.jpeg"
+                      width={70}
+                      height={70}
+                      alt="oktalogo"
+                      className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
+                      style={{borderRadius : "30%"}}
+                    />
+                  </Link>
+                </div>
+                  <div>
+                    <p className="text-sm text-muted-foreground">May 2026 - Aug 2026</p>
+                    <Link href="https://www.okta.com" target="_blank" prefetch={false}>
+                      <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
+                        <strong>Okta</strong>
+                      </h3>
+                    </Link>
+                    <p className="mt-1 text-muted-foreground font-semibold">Software Engineer Intern</p>
+                    <p className="mt-1 text-sm text-muted-foreground">Toronto, ON</p>
+                    <ul className="mt-4 space-y-2 text-muted-foreground">
+                      <li>
+                      🚀 Incoming Summer 2026
+                      </li>
+                    </ul>
+                    <div className="mt-4 flex gap-2">
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Java</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Spring Boot</span>
+                    </div>
+                  </div>
+                </div>
               <div className="flex items-start group">
                 <div className="w-[64px] flex-shrink-0">
                   <Link href="https://www.shopify.com" target="_blank" prefetch={false}>
@@ -206,7 +239,7 @@ export function App() {
                   </Link>
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground">May 2025 - Present</p>
+                    <p className="text-sm text-muted-foreground">May 2025 - Aug 2025</p>
                     <Link href="https://www.sandwichlab.ai" target="_blank" prefetch={false}>
                       <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
                         <strong>Sandwich Lab AI</strong>
@@ -318,7 +351,6 @@ export function App() {
                     </h3>
                     <p className="mt-1 text-muted-foreground font-semibold">University of Waterloo | Sep 2022 - Dec 2026</p>
                     <ul className="mt-4 space-y-2">
-                      <li>Software Engineering Specialization</li>
                       <li>Economics Minor</li>
                       <li style={{color: '#4c5059'}}>Level: 4A</li>
                     </ul>
@@ -326,7 +358,7 @@ export function App() {
                 </div>
               </div>
               <div className="mt-8 space-y-8">
-                <div className="flex items-start group">
+                {/* <div className="flex items-start group">
                   <img
                     src="/aws-saa-c03.png"
                     width={64}
@@ -351,7 +383,7 @@ export function App() {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="mt-8 space-y-8">
                 <div className="flex items-start group">
