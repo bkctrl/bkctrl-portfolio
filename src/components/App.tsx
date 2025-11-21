@@ -159,7 +159,7 @@ export function App() {
             <div className="mx-auto max-w-3xl" style={{paddingTop: "3rem"}}>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Experience</h2>
               <div className="mt-8 space-y-8">
-              <div className="flex items-start group">
+              {/* <div className="flex items-start group">
                 <div className="w-[64px] flex-shrink-0">
                   <Link href="https://www.okta.com" target="_blank" prefetch={false}>
                     <img
@@ -191,7 +191,7 @@ export function App() {
                       <span className="bg-muted px-2 py-1 rounded-md text-sm">Spring Boot</span>
                     </div>
                   </div>
-                </div>
+                </div> */}
               <div className="flex items-start group">
                 <div className="w-[64px] flex-shrink-0">
                   <Link href="https://www.shopify.com" target="_blank" prefetch={false}>
