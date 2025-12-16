@@ -159,7 +159,7 @@ export function App() {
             <div className="mx-auto max-w-3xl" style={{paddingTop: "3rem"}}>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Experience</h2>
               <div className="mt-8 space-y-8">
-              {/* <div className="flex items-start group">
+              <div className="flex items-start group">
                 <div className="w-[64px] flex-shrink-0">
                   <Link href="https://www.okta.com" target="_blank" prefetch={false}>
                     <img
@@ -191,7 +191,7 @@ export function App() {
                       <span className="bg-muted px-2 py-1 rounded-md text-sm">Spring Boot</span>
                     </div>
                   </div>
-                </div> */}
+                </div>
               <div className="flex items-start group">
                 <div className="w-[64px] flex-shrink-0">
                   <Link href="https://www.shopify.com" target="_blank" prefetch={false}>
@@ -228,7 +228,7 @@ export function App() {
                 </div>
               <div className="flex items-start group">
               <div className="w-[64px] flex-shrink-0">
-                <Link href="https://www.sandwichlab.ai" target="_blank" prefetch={false}>
+                <Link href="https://www.lexilexi.ai" target="_blank" prefetch={false}>
                   <img
                     src="/test.png"
                     width={60}
@@ -240,7 +240,7 @@ export function App() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">May 2025 - Aug 2025</p>
-                    <Link href="https://www.sandwichlab.ai" target="_blank" prefetch={false}>
+                    <Link href="https://www.lexilexi.ai" target="_blank" prefetch={false}>
                       <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
                         <strong>Sandwich Lab AI</strong>
                       </h3>
@@ -283,7 +283,7 @@ export function App() {
                     <p className="mt-1 text-sm text-muted-foreground">Toronto, ON</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
                       <li>
-                        🌎🚢 Cross-Border Foundations, Duties and Taxes Service
+                        🌎🚢 Cross-Border Duties & Taxes
                       </li>
                     </ul>
                     <div className="mt-4 flex gap-2">
@@ -352,7 +352,7 @@ export function App() {
                     <p className="mt-1 text-muted-foreground font-semibold">University of Waterloo | Sep 2022 - Dec 2026</p>
                     <ul className="mt-4 space-y-2">
                       <li>Economics Minor</li>
-                      <li style={{color: '#4c5059'}}>Level: 4A</li>
+                      <li style={{color: '#4c5059'}}>Level: 4B</li>
                     </ul>
                   </div>
                 </div>
