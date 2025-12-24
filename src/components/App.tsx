@@ -196,11 +196,12 @@ export function App() {
                 <div className="w-[64px] flex-shrink-0">
                   <Link href="https://www.shopify.com" target="_blank" prefetch={false}>
                     <img
-                      src="/shopify-logo.png"
+                      src="/shopify_logo.jpeg"
                       width={70}
                       height={70}
                       alt="shopifylogo"
                       className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
+                      style={{borderRadius : "30%"}}
                     />
                   </Link>
                 </div>
@@ -230,14 +231,22 @@ export function App() {
               <div className="w-[64px] flex-shrink-0">
                 <Link href="https://www.lexilexi.ai" target="_blank" prefetch={false}>
                   <img
-                    src="/test.png"
+                    src="/lexilexiai1_logo.jpeg"
                     width={60}
                     height={60}
-                    alt="Briefcase"
-                    className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
+                    alt="sandwichlogo"
+                    className="
+                    mr-4 h-12 w-12
+                    rounded-[30%]
+                    border border-[#e0e0d7]
+                    group-hover:border-2 group-hover:border-[#ff69b4]
+                    group-hover:rounded-md
+                    transition-[border-color,border-radius,border-width] duration-50
+                    box-border
+                  "
                   />
-                  </Link>
-                  </div>
+                </Link>
+              </div>
                   <div>
                     <p className="text-sm text-muted-foreground">May 2025 - Aug 2025</p>
                     <Link href="https://www.lexilexi.ai" target="_blank" prefetch={false}>
@@ -264,11 +273,12 @@ export function App() {
                 <div className="w-[64px] flex-shrink-0">
                   <Link href="https://www.shopify.com" target="_blank" prefetch={false}>
                     <img
-                      src="/shopify-logo.png"
+                      src="/shopify_logo.jpeg"
                       width={70}
                       height={70}
                       alt="shopifylogo"
                       className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
+                      style={{borderRadius : "30%"}}
                     />
                   </Link>
                 </div>
