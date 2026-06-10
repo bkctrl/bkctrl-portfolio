@@ -159,14 +159,14 @@ export function App() {
             <div className="mx-auto max-w-3xl" style={{paddingTop: "3rem"}}>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Experience</h2>
               <div className="mt-8 space-y-8">
-{/*           <div className="flex items-start group">
+          <div className="flex items-start group">
                 <div className="w-[64px] flex-shrink-0">
-                  <Link href="https://www.aboutamazon.com" target="_blank" prefetch={false}>
+                  <Link href="https://www.wealthsimple.com/en-ca" target="_blank" prefetch={false}>
                     <img
-                      src="/amazon-logo.jpeg"
+                      src="/wealthsimple_logo.jpeg"
                       width={70}
                       height={70}
-                      alt="amazonlogo"
+                      alt="wealthsimple_logo"
                       className="mr-4 h-12 w-12 text-muted-foreground group-hover:border group-hover:border-[#ff69b4] group-hover:rounded-md"
                       style={{borderRadius : "30%"}}
                     />
@@ -174,24 +174,23 @@ export function App() {
                 </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Sep 2026 - Dec 2026</p>
-                    <Link href="https://www.aboutamazon.com" target="_blank" prefetch={false}>
+                    <Link href="https://www.wealthsimple.com/en-ca" target="_blank" prefetch={false}>
                       <h3 className="text-lg font-semibold group-hover:text-[#ff69b4]">
-                        <strong>Amazon</strong>
+                        <strong>Wealthsimple</strong>
                       </h3>
                     </Link>
-                    <p className="mt-1 text-muted-foreground font-semibold">Software Development Engineer Intern</p>
-                    <p className="mt-1 text-sm text-muted-foreground">Vancouver, BC</p>
+                    <p className="mt-1 text-muted-foreground font-semibold">Software Engineer Intern</p>
+                    <p className="mt-1 text-sm text-muted-foreground">Toronto, ON</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
                       <li>
                       🚀 Incoming Fall 2026
                       </li>
                     </ul>
                     <div className="mt-4 flex gap-2">
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Java</span>
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Spring Boot</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">TBD</span>
                     </div>
                   </div>
-                </div> */}
+                </div>
               <div className="flex items-start group">
                 <div className="w-[64px] flex-shrink-0">
                   <Link href="https://www.okta.com" target="_blank" prefetch={false}>
@@ -216,12 +215,13 @@ export function App() {
                     <p className="mt-1 text-sm text-muted-foreground">Toronto, ON</p>
                     <ul className="mt-4 space-y-2 text-muted-foreground">
                       <li>
-                      🔵🔐 Engineering Security, Blue Team
+                      💸📊 FP&A Finance Tech - Anaplan
                       </li>
                     </ul>
                     <div className="mt-4 flex gap-2">
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Java</span>
-                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Spring Boot</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Python</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">AWS</span>
+                      <span className="bg-muted px-2 py-1 rounded-md text-sm">Snowflake</span>
                     </div>
                   </div>
                 </div>
